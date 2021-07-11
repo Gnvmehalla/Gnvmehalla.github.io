@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Cheat Sheet</title>
+        <link href="./resources/css/styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1 id="header-text">CSS Cheat Sheet</h1>
+        </header>
+
+        <section>
+            <table id="specificity">
+                <tr id="col">
+                    <th>
+                        <h2>Specificity</h2>
+                    </th>
+                    <th>
+                        <h2>Description</h2>
+                    </th>
+                    <th>
+                        <h2>Example</h2>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="key">
+                        <h2 class="key-text">!important</h2>
+                    </th>
+                    <td>
+                        <h3 class="value">The most specific selector. Overrides any other rules.</h3>
+                    </td>
+                    <td>
+                        <h3 class="example">color:  red  !important;</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="key">
+                        <h2 class="key-text">#ID</h2>
+                    </th>
+                    <td>
+                        <h3 class="value">Applies to a particular element with this ID.</h3>
+                    </td>
+                    <td>
+                        <h3 class="example">#main-text {text-align:  center;}</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="key">
+                        <h2 class="key-text">.class</h2>
+                    </th>
+                    <td>
+                        <h3 class="value">Applies to all elements within this class.</h3>
+                    </td>
+                    <td>
+                        <h3 class="example">.example {font-style:  italic;}</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="key">
+                        <h2 class="key-text">selector</h2>
+                    </th>
+                    <td>
+                        <h3 class="value">Applies to all instances of this selector.</h3>
+                    </td>
+                    <td>
+                        <h3 class="example">p, h1 {font-family:  Georgia,  serif;}</h3>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+
+        <footer>
+            <p class='footer-text'><b>Created by: Ryan Murphy</b></p>
+        </footer>
+    </body>
+</html>
