@@ -1,0 +1,47 @@
+#col {
+    background-color: white;
+}
+
+.key {
+    min-width: 200px;
+    background-color: rgb(114, 114, 231);
+}
+
+.value {
+    min-width: 450px;
+}
+
+.example {
+    min-width: 300px;
+}
+
+.footer-text {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-style: italic;
+    text-align: center;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url('../weird.jpg');
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    background-color: rgb(216, 133, 133);
+}
+
+h1 {    
+    text-align: center;
+    color:#000;
+}
